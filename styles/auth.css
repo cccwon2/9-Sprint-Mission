@@ -128,36 +128,36 @@ input:focus {
   outline-style: solid;
 }
 
-.error-email {
+.error-color {
   color: var(--red);
+}
+
+.error-email {
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  margin: 0 24px 10px;
+  margin: 10px 24px 10px;
 }
 
 .error-password {
-  color: var(--red);
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  margin: 0 24px 10px;
+  margin: 10px 24px 10px;
 }
 
 .error-nickname {
-  color: var(--red);
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  margin: 0 24px 10px;
+  margin: 10px 24px 10px;
 }
 
 .error-confirmPassword {
-  color: var(--red);
   font-size: 14px;
   font-weight: 600;
   line-height: 24px;
-  margin: 0 24px 10px;
+  margin: 10px 24px 10px;
 }
 
 /* Tablet */
