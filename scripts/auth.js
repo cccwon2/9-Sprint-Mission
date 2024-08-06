@@ -144,23 +144,13 @@ $(function () {
     }
   });
 
-  function loginForm() {
-    if (isValidEmail($("#email").val()) && $("#password").val().length >= 8) {
-      $("#loginForm").submit();
-    } else {
-      $("#loginButton").prop("disabled", true);
-    }
-  }
+  $("#loginForm").submit((e) => {
+    e.preventDefault();
+    window.location.href = "items.html";
+  });
 
-  function signupForm() {
-    if (
-      isValidEmail($("#email").val()) &&
-      $("#confirmPassword").val().length >= 8 &&
-      $("#password").val() === $("#confirmPassword").val()
-    ) {
-      $("#signupForm").submit();
-    } else {
-      $("#signupButton").prop("disabled", true);
-    }
-  }
+  $("#signupForm").submit((e) => {
+    e.preventDefault();
+    window.location.href = "login.html";
+  });
 });
