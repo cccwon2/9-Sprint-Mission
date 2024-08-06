@@ -2,9 +2,6 @@ $(function () {
   const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
   const formId = $("form").attr("id");
 
-  if (formId === "loginForm") $("#loginButton").prop("disabled", true);
-  else $("#signupButton").prop("disabled", true);
-
   function isValidEmail(email) {
     return emailPattern.test(email);
   }
