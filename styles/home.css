@@ -126,6 +126,9 @@ footer {
 #footerMenu {
   display: flex;
   gap: 30px;
+}
+
+#footerMenu a {
   color: var(--gray-200);
 }
 
